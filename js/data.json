@@ -1,5 +1,5 @@
-[ 
-    { "id": 1, "ten": "Hệ thống Quản lý Nhà hàng CRM", "congNghe": "Python (Flask), MySQL, JavaScript", "namHoanThanh": 2026 }, 
-    { "id": 2, "ten": "Thiết kế 3D Formicarium", "congNghe": "Fusion 360", "namHoanThanh": 2026 }, 
-    { "id": 3, "ten": "Landing Page Sự kiện", "congNghe": "HTML5, Flexbox, Grid", "namHoanThanh": 2024 } 
+[
+    { "id": 1, "ten": "Hệ thống Quản lý Nhà hàng CRM", "congNghe": "Python (Flask), MySQL, JavaScript", "namHoanThanh": 2026 },
+    { "id": 2, "ten": "Thiết kế 3D Formicarium", "congNghe": "Fusion 360", "namHoanThanh": 2026 },
+    { "id": 3, "ten": "Landing Page Sự kiện", "congNghe": "HTML5, Flexbox, Grid", "namHoanThanh": 2024 }
 ]

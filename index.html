@@ -8,6 +8,77 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+            <button id="theme-toggle">Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <img src="avatar.jpg" alt="Ảnh đại diện của Đoàn Duy Hưng" class="profile-pic">
+            <h1>Xin chào, tôi là Đoàn Duy Hưng</h1>
+            <p>Sinh viên CNTT, mong muốn trở thành Data Analysis và hiện tại đang là freelancer photographer.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Kỹ năng của tôi</h2>
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Kỹ năng</th>
+                        <th>Mức độ</th>
+                    </tr>
+                </thead>
+                <tbody id="skills-body">
+                </tbody>
+            </table>
+        </section>
+
+        <section id="projects">
+            <h2>Dự án đã thực hiện</h2>
+            <div id="projects-grid" class="projects-grid">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Liên hệ</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Họ và tên:</label>
+                    <input type="text" id="name" name="name" required minlength="3">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <!-- Pattern validate email cơ bản -->
+                    <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Số điện thoại:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10,11}" placeholder="VD: 0901234567" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Ngày sinh:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                
+                <button type="submit">Gửi tin nhắn</button>
+                <p id="form-msg"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Đoàn Duy Hưng. Bài thi giữa kỳ môn Lập trình Web.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
